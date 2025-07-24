@@ -1,60 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcelo Tatoo's</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-</head>
-
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand bebas-regular">Tatuagens</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a href="#sobre" class="nav-link rock-regular">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#ideias" class="nav-link rock-regular">ideias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projetos" class="nav-link rock-regular">Projetos</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand bebas-regular">Marcelo Tattoo's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link rock-regular">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ideias" class="nav-link rock-regular">Ideias</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link rock-regular">Projetos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center bg-black text-light py-3">
+    <div class="container">
+      <h1 class="display-3 cinzel">Tatuagem Realista</h1>
+      <p class="lead source-sans-3">Transformando ideias em projetos detalhistas</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="py-5 bg-light text-dark">
+      <div class="container">
+        <h2 class="pirata-regular mb-3">Sobre o Marcelo</h2>
+        <p class="alegreya-regular">
+          Marcelo é tatuador há mais de 10 anos, especialista em tatuagem realista e projetos personalizados. Cada traço é pensado para eternizar uma ideia na pele.
+        </p>
+      </div>
+    </section>
+
+    <section id="ideias" class="py-5 bg-dark text-light">
+      <div class="container">
+        <h2 class="pirata-regular mb-3">Ideias para Tatuagem</h2>
+        <ul class="alegreya-regular">
+          <li>Realismo em preto e cinza</li>
+          <li>Aquarela</li>
+          <li>Minimalista</li>
+          <li>Tradicional</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="py-5 bg-light text-dark">
+      <div class="container">
+        <h2 class="pirata-regular mb-3">Projetos Realizados</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Tatuagem 1">
+          </div>
+          <div class="col-md-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Tatuagem 2">
+          </div>
+          <div class="col-md-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Tatuagem 3">
+          </div>
         </div>
-    </nav>
+      </div>
+    </section>
+  </main>
 
-    <header class="text-center bg-black text-light py-3">
-        <div class="container">
-            <h1 class="display-3 cinzel">Tatuagem Realista</h1>
-            <p class="lead source-sans-3">Transformando ideias em projetos detalhistas</p>
-        </div>
-    </header>
-
-    <main>
-        <section id="sobre"></section>
-        <section id="ideias"></section>
-        <section id="projetos"></section>
-    </main>
-
-    <footer>
-        <p><i class="bi bi-whatsapp"></i></p>
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <footer class="bg-dark text-center text-light py-4 libre-baskerville-regular-italic">
+    <div class="container">
+      <p class="mb-1">Entre em contato:</p>
+      <p>
+        <i class="bi bi-whatsapp"></i> (11) 99999-9999 <br>
+        <i class="bi bi-instagram"></i> @marcelo.tattoo
+      </p>
+      <small>&copy; 2025 Marcelo Tattoo's. Todos os direitos reservados.</small>
+    </div>
+  </footer>
 </body>
-
-</html>
