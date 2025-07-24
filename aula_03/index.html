@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+</head>
+<body>
+    <h1>Criando nossas Mídias</h1>
+
+    <h2>Imagem</h2>
+    <!-- 
+    Tag picture é usada para fornecer diferentes tipos de imagem
+    -->
+    <picture>
+        <!-- 
+        source fornece a imagem dependendo do tamanho da tela
+        media define o tamanho mínimo ou máximo da tela 
+        -->
+        <source media="(max-width: 420px)" srcset="./hp.gif">
+        <source media="(max-width: 800px)" srcset="./carro.gif">
+
+        <!-- 
+        img é a tag de imagem
+        src: caminho da imagem
+        alt: Texto descritivo da imagem caso não econtre
+        width: largura da imagem
+        -->
+        <img src="./bob_construtor.gif" alt="bobo o contrutor" width="80%">
+    </picture>
+
+    <h2>Vídeo</h2>
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/J0xw8S5PpCg?si=56zchgMjaSTUvhqg" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>Paginas Web</h3>
+    <iframe 
+    src="https://www.mercadolivre.com.br/" 
+    frameborder="1" 
+    width="300" 
+    height="300"></iframe>
+
+    <h3>Google Maps</h3>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179112.43075319906!2d9.07197301115758!3d45.457076746946356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2zTWlsw6NvLCBJdMOhbGlh!5e0!3m2!1spt-BR!2sbr!4v1752673716108!5m2!1spt-BR!2sbr" 
+    width="400" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h3>Documentos</h3>
+    <iframe 
+    src="./Diretran-Manual-Demonstracao.pdf" 
+    frameborder="1"
+    width="300"
+    height="300"></iframe>
+
+
+    <h2>Áudio</h2>
+    <audio controls>
+        <source src="./musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Desafio</h2>
+    <p>Vamos fazer o nosso <a href="./desafio.html" target="_blank">desafio</a></p>
+
+
+</body>
+</html>

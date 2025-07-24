@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .principal{
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 6px 5px 14px black;
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .campo{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .field{
+            border: 1px solid #333333;
+            border-radius: 8px;
+            padding: 10px 20px;
+        }
+        .legendas{
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .inputs{
+            border: 1px solid #333333;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .py{
+            padding: 30px 10px;
+        }
+        .txt-center{
+            text-align: center;
+        }
+        .bg-bege{
+            background-color: bisque;
+        }
+        .bg-white{
+            background-color: white;
+        }
+        .bg-dark{
+            background-color: black;
+        }
+        .bg-primary{
+            background-color: dodgerblue;
+        }
+        .txt-white{
+            color: white;
+        }
+        .btn{
+            border: none;
+            padding: 8px;
+            background-color: #007bff;
+            border-radius: 10px;
+            font-size: 16px;
+            color: white;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: #005bff;
+        }
+    </style>
+</head>
+<body class="bg-bege">
+
+    <!-- Conteúdo introdutório -->
+    <header class="bg-dark txt-white txt-center py">
+        <h1>Fórmulários</h1>
+    </header>
+
+    <!-- Conteúdo Prinipal -->
+    <main class="bg-white principal">
+        <!-- action: caminho para onde você irá mandar os dados -->
+        <!-- method: como você vai mandar esses dados -->
+        <form action="./index.html" method="GET" class="formulario">
+
+            <div class="campo">
+                <!-- for: o que você escreveu nesse label -->
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="inputs">
+                <!-- type: tipo do input // name: campo desse input  //  placeholder: texto que aparece dentro do input -->
+            </div>
+                
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" class="inputs">
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite uma senha" class="inputs">
+            </div>
+
+            <fieldset class="field">
+                <legend class="legendas">País de Origem</legend>
+                <select name="pais" id="pais" class="inputs">
+                    <option value="brasil">Brasil</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="espanha">Espanha</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="field">
+                <legend class="legendas">Gênero</legend>
+
+                <input type="radio" name="genero" id="masc" value="M" checked>
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" name="genero" id="femin" value="F">
+                <label for="feminino">Feminino</label>
+
+            </fieldset>
+
+            <fieldset class="field">
+                <legend class="legendas">Interesses</legend>
+
+                <input type="checkbox" name="interesses" id="interesse-html" value="HTML">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" name="interesses" id="interesse-css" value="CSS">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" name="interesses" id="interesse-js" value="JS">
+                <label for="js">Javascript</label>
+            </fieldset>
+
+            <div class="campo">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" class="inputs" min="1" max="90" step="1">
+            </div>
+
+            <div class="campo">
+                <label for="comentario">Comentário:</label>
+                <textarea name="comentario" id="comentario" cols="26" rows="5" class="inputs"></textarea>
+            </div>
+
+            <button class="btn">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Rodapé da página (pós-créditos) -->
+    <footer class="bg-dark txt-center txt-white py">
+        <p>Todos os direitos reservados</p>
+        <p>Aula do dia 21/07/2025</p>
+    </footer>
+
+</body>
+</html>

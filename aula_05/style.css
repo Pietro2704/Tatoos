@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Manufacturing+Consent&display=swap');
+
+.text-blue{
+    color: blue;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-arial{
+    font-family: "Pacifico";
+}
+
+.font-bit{
+    font-family: "Bitcount Single", system-ui;
+    font-size: 50px;
+}
+
+.text-red{
+    color: red;
+}
+
+.borda-1{
+    border: 3px dashed green;
+}
+
+.borda-2{
+    border: 3px solid blue;
+}
+
+.borda-3{
+    border: 3px dotted red;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}

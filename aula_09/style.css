@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Fruktur:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Miltonian+Tattoo&family=Pirata+One&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Unica+One&display=swap');
+
+/* NADA */
+.source-sans-3{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.cinzel{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* REGULAR */
+.tattoo-regular {
+  font-family: "Miltonian Tattoo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pirata-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.unica-regular {
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.libre-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rock-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.alegreya-regular {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* MEDIDAS */
+.alegreya-sans-thin {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.alegreya-sans-light {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.alegreya-sans-medium {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.alegreya-sans-bold {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.alegreya-sans-extrabold {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.alegreya-sans-black {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/* ITÁLICO */
+.alegreya-sans-thin-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.fruktur-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.alegreya-sans-light-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.alegreya-sans-regular-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.alegreya-sans-medium-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.alegreya-sans-bold-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.alegreya-sans-extrabold-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.alegreya-sans-black-italic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+

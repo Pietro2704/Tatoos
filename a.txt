@@ -1,0 +1,28 @@
+# camelCase -> aula02 -> nomeCompleto
+# PascalCase -> NomeCompleto -> Aula02
+# snake_case -> nome_completo -> aula_02
+
+aula 02
+
+arquivo 1.html
+
+nome completo
+
+index é o nome do arquivo principal, ou seja, é a primeira tela que meu usuário irá ver
+
+
+
+
+
+
+|----------------------------------------------------------------------|
+|   Nome  | História | Geografia | Portugues | Matemática |  Situação  |
+|---------|----------|-----------|-----------|------------|------------|
+|  Pietro |   7.4    |    7.2    |    9.3    |    8.7     |  Aprovado  |
+|   Enzo  |   8.0    |    5.1    |    4.6    |    3.7     | Reprovado  |
+| Ricardo |   7.4    |    7.2    |    9.3    |    8.7     | Reprovado  |
+|  Andrea |   7.4    |    7.2    |    9.3    |    8.7     |  Aprovado  |
+|---------|----------|-----------|-----------|------------|------------|
+|      Total de Alunos: 4        |        Média da Sala: 8.8           |
+|----------------------------------------------------------------------|
+
